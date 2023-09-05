@@ -1,21 +1,70 @@
 {
-    "projects": [],
-    "categories": [
+  "projects": [
+    {
+      "name": "Primeiro",
+      "price": "7000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 600,
+      "services": [
         {
-            "id": 1,
-            "name": "Infra"
+          "name": "novo serviço",
+          "cost": "200",
+          "description": "serviço",
+          "id": "b847d8c8-fbaa-4ac1-b7cd-05abce000686"
         },
         {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
+          "name": "service",
+          "cost": "400",
+          "description": "opopo",
+          "id": "1ad3e25f-cbe5-4e08-a8e9-8c752b50bee1"
         }
-    ]
+      ],
+      "id": 2
+    },
+    {
+      "name": "Segundo",
+      "price": "7000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 2090,
+      "services": [
+        {
+          "name": "Contratar F",
+          "cost": "500",
+          "description": "Contratar",
+          "id": "a2fcac42-2281-4246-85f7-b7a17741de63"
+        },
+        {
+          "name": "Contratar G",
+          "cost": "1090",
+          "description": "jkk",
+          "id": "fcc37579-bdb8-4da0-a7ab-f68f090cb8f7"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
